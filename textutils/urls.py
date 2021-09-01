@@ -40,6 +40,7 @@ urlpatterns = [
     path("",views.LeeshaLarsenGarments,name="dress price.jpeg"),
     path("",views.LeeshaLarsenGarments,name="dresstrial.jpeg"),
     path("contactus",views.contactus,name="contactus.html"),
+    path("",views.GABRIALFURNITURE,name="furniture.jpeg"),
 
 ]
 urlpatterns +=  static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
