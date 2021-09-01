@@ -22,8 +22,10 @@ def LeeshaLarsenGarments(request):
 def home(request):
     home = {'dark': 'Larsen'}
     return render(request,'home.html',home)
-
-
+def chickenshop(request):
+    return render(request,'chickenshop.html')
+def ContactKrishna(request):
+    return render(request,'ContactKrishna.html')
 # def capfirst(request):
 #     return HttpResponse("Capitalize first ")
 #def home(request):
@@ -51,8 +53,10 @@ def ContactRajath(request):
 # def zir(request):
 #     return render(request,'zir.jpeg')
 def contactus(request):
-    ald = {'name': 'Rajath', 'shop': 'DigitalPrinting'}
+    res = {'name': 'Rajath', 'shop': 'DigitalPrinting'}
     return render(request,'contactus.html')
+
+
 
 
 
